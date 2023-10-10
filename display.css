@@ -1,0 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lustria&family=Nanum+Myeongjo:wght@400;700&display=swap");
+/* 
+font-family: 'Lustria', serif;
+font-family: 'Nanum Myeongjo', serif; 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: rgb(218, 218, 218);
+  }
+
+
+header {
+    height: 3.2rem;
+    background-color: #2d2b34;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2487&q=80");
+    background-position: 60% 30%;
+    background-size: 150%;
+
+    
+  }
+  
+  .navbar {
+    font-family: "Nanum Myeongjo", serif;
+    padding: 17px;
+    font-size: 1.2rem;
+
+  }
+  
+  .navbar a {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+  
+  .images{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-right: 2rem;
+    align-items: flex-end;
+  }
+  
+img{
+    width: 40%;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #333;
+    opacity: 0.5;
+}
+
+.images img:hover{
+    position: relative;
+    width: 60rem;
+    top: 0px;
+    opacity: 100%;
+
+}
+
+.features{
+    position: fixed;
+    margin: 3rem;
+    width: 40%;
+    overflow: auto;
+    font-family: 'Lustria', serif;
+    line-height: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+    top: 20%;
+}
+.features h2{
+    font-size: 1.2rem;
+    color: #13760e;
+    margin-bottom: 5px;
+    font-family: 'Nanum Myeongjo', serif; 
+
+}
+.features ul{
+    position:relative;
+    left: 10%;
+}
+
+.features li:hover{
+font-style: italic;
+}
+
+
+.features p{
+    margin-bottom: 10px;
+}
