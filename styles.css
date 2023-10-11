@@ -3,6 +3,9 @@
 font-family: 'Lustria', serif;
 font-family: 'Nanum Myeongjo', serif; 
 */
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   padding: 0;
