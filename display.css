@@ -105,3 +105,26 @@ font-style: italic;
 .features p{
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 900px){
+*{
+  display: flex;
+  flex-direction: column;
+position: relative;
+}
+
+.features{
+  position: relative;
+  width: 75vw;
+  font-size: .7rem;
+
+}
+.images img:hover{
+  position: relative;
+  width: 80vw;
+  top: 0px;
+  opacity: 100%;
+
+}
+
+}
