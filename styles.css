@@ -28,13 +28,20 @@ header {
   height: 3.2rem;
   background-color: #2d2b34;
   margin-bottom: 2rem;
+
   color: #fff;
 }
 
 .navbar {
   font-family: "Nanum Myeongjo", serif;
-  padding: 17px;
-  font-size: 1.2rem;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+.navbar a:hover{
+  background: #71717186;
+  padding: 10px;
+  transform: scale(.8);
 }
 
 .navbar a {
