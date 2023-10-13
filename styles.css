@@ -175,16 +175,21 @@ header {
   object-fit: contain;
 }
 .skillsbox {
+  line-height: 120%;
   background: #fff;
   padding: 2rem;
   border-radius: 20px;
   /* min-width: 45rem; */
+  width: 110%;
   position: relative;
   margin: 5rem 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   left: 20px;
 }
 
+.skillsbox p{
+  margin-bottom: 2%;
+}
 .about p {
   position: relative;
   left: 1%;
@@ -198,7 +203,7 @@ header {
 
 }
 
-.about li:hover{
+.skillsbox li:hover, .skillsbox p:hover{
   font-style: italic;
 }
 .about li {
