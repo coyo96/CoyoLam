@@ -17,6 +17,13 @@ html {
   outline: none;
   scroll-behavior: smooth;
   font-family: "Lustria", serif;
+  cursor: pointer;
+}
+
+::selection{
+ background-color: rgb(191, 236, 239);
+
+
 }
 
 body {
@@ -25,29 +32,36 @@ body {
   width: 100vw;
 }
 header {
-  height: 3.2rem;
+  height: 4rem;
   background-color: #2d2b34;
-  margin-bottom: 2rem;
 
   color: #fff;
+  justify-content: center;text-align: center;
 }
 
 .navbar {
   font-family: "Nanum Myeongjo", serif;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+
+  
 
 }
 .navbar a:hover{
-  background: #71717186;
-  padding: 10px;
-  transform: scale(.8);
+  background: #b1b4b886;
+  font-style: italic;
+
+  padding:2px 8px;
+ 
+
 }
 
 .navbar a {
   color: #fff;
   list-style-type: none;
   text-decoration: none;
+  transition: ease .3s;
+  
   text-transform: uppercase;
 }
 
@@ -77,12 +91,17 @@ header {
   width: 14em;
   padding: 9px;
   margin: 5px;
+  margin-left: 2rem;
   position: relative;
   top: 52%;
+  border-radius: 2px;
   left: 1%;
   text-align: left;
 }
 
+.title:hover{
+  font-style: italic;
+}
 .title1 {
   width: 27rem;
   text-transform: uppercase;
@@ -115,6 +134,17 @@ header {
   
 }
 
+.up{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  align-items: center;
+  font-size: 2rem;
+  color: #000000a3;
+  filter: invert(100);
+  background: transparent;
+
+}
 .about-text {
   font-size: 1.7rem;
   position: relative;
@@ -165,6 +195,11 @@ header {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
+
+}
+
+.about li:hover{
+  font-style: italic;
 }
 .about li {
   list-style-type: none;
@@ -191,7 +226,7 @@ header {
   background-image: url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2487&q=80");
   position: relative;
   width: 100vw;
-  height: 5rem;
+  height: 7rem;
   object-fit: cover;
   background-size: 120%;
 
@@ -216,6 +251,9 @@ header {
   margin-top: 5px;
 }
 
+.services{
+  background:   #191b16;;
+}
 .portfolio-collection {
   justify-content: center;
   background: #191b16;
@@ -270,6 +308,7 @@ buttons {
   justify-content: center;
   align-items: center;
   position: relative;
+width: 60vw;
 }
 
 button {
@@ -277,11 +316,13 @@ button {
   font-family: "Lustria", serif;
   border-radius: 10px;
   border: none;
-  height: 4rem;
+  height: 6rem;
   margin: 1rem;
   width: 15rem;
-  font-size: 1.5rem;
+  
+  font-size: 1.8rem;
   transition: 0.6s ease;
+  
 }
 
 button:hover {
@@ -310,6 +351,7 @@ button:hover {
   text-decoration: underline;
   font-size: 3rem;
   font-weight: 300;
+  padding-bottom: 10px;
 }
 
 .contact h3 {
@@ -321,12 +363,13 @@ button:hover {
 .contact-text {
   font-size: 1.7rem;
   position: relative;
-  width: 60vw;
+  width:55vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   left: 4%;
+  
 }
 
 .contact-img {
@@ -361,13 +404,21 @@ footer {
 }
 
 .footer-links{
-  gap: 1.2rem;
+  gap: 2rem;
   display: flex;
   font-size: 2rem;
+  padding: 2rem;
 }
-nav{
-  padding: 0 3%;
+
+.social{
+  color: #fff;
 }
+
+.social:hover{
+  transform: scale(1.5);
+  transition: ease .5s;
+}
+
 
 .rights {
   padding: -10px;
