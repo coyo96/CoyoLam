@@ -308,13 +308,14 @@ button:hover {
 .contact h2 {
   color: #000;
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .contact h3 {
   color: #000;
-  padding-bottom: 5rem;
-  font-size: 1.5rem;
+  padding-bottom: 7rem;
+  font-size: 2rem;
 }
 
 .contact-text {
@@ -347,13 +348,25 @@ button:hover {
 footer {
   padding: 10px;
   background-color: #2d2b34;
-  height: 4rem;
+  height: 6rem;
   top: 10%;
   bottom: 0;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #ffffff;
+  font-family: 'Lustria', serif;
+  letter-spacing: 1px;
+}
+
+.footer-links{
+  gap: 1.2rem;
+  display: flex;
+  font-size: 2rem;
+}
+nav{
+  padding: 0 3%;
 }
 
 .rights {
